@@ -1,0 +1,24 @@
+.aboutWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 32px;
+}
+
+.aboutWrapper h5{
+    width: 50%;
+}
+
+.offerWrapper{
+    width: 40%;
+    background-color: black;
+    color: white;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.offerWrapper li{
+    padding: 2px;
+}

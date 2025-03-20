@@ -1,0 +1,46 @@
+.imgWrapper{
+    margin-top: 20px;
+}
+
+.detailWrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.mealImage img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.bottomWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-top: 30px;
+
+}
+
+.nutWrapper{
+    padding: 10px;
+    background-color: black;
+    color: orange;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.mealImage{
+    padding: 10px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.ingWrapper{
+    padding: 10px;
+    background-color: black;
+    color: orange;
+    width: 250px;
+    border-radius: 10px;
+}

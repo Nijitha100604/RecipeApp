@@ -1,0 +1,42 @@
+.pageWrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardWrapper{
+    border: 1px solid red;
+    width: 30%;
+    padding: 16px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    gap: 10px;
+    color: orange;
+}
+
+.cardWrapper img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.cardWrapper button{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: orange;
+    color: black;
+}
+
+.cardWrapper button:hover{
+    cursor: pointer;
+    background-color: red;
+    color: orange;
+}
